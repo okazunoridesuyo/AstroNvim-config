@@ -1,0 +1,19 @@
+{
+	"Favicon": {
+		"prefix": ["favicon"],
+		"body": ["<link rel=\"icon\" type=\"image/x-icon\" href=\"$1\" />", "\t$0"],
+		"description": "favicon link"
+	},
+
+	"MAX media query": {
+		"prefix": ["medmax"],
+		"body": ["@media(width < $1px){", "\t$0", "\t}"],
+		"description": "max-width media query"
+	},
+
+	"MIN media query": {
+		"prefix": ["medmin"],
+		"body": ["@media(width > $1px){", "\t$0", "\t}"],
+		"description": "min-width media query"
+	}
+}

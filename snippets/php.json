@@ -1,0 +1,13 @@
+{
+	"PHP tag": {
+		"prefix": ["php"],
+		"body": ["<?php $1 ?>", "\t$0"],
+		"description": "Insert php tag"
+	},
+
+	"print_r": {
+		"prefix": ["prr"],
+		"body": ["echo '<pre>';", "print_r($$1);", "echo '</pre>';", "\t$0"],
+		"description": "Display print_r with a new line"
+	}
+}

@@ -17,8 +17,8 @@ return {
         "vim-language-server",
         "bash-language-server",
         "intelephense",
-        "laravel-ls",
         "biome",
+        "vtsls",
         "css-lsp",
         "tailwindcss-language-server",
         "html-lsp",
@@ -26,7 +26,6 @@ return {
         "pyright",
         "ruff",
         "clangd",
-        "snyk",
 
         -- install linter
         "shellcheck",
@@ -36,6 +35,7 @@ return {
         "shfmt",
         "prettier",
         "clang-format",
+        "php-cs-fixer",
 
         -- install debuggers
         "cpptools",

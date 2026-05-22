@@ -8,5 +8,6 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
   -- import/override with your plugins folder
 }
