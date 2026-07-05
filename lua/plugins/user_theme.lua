@@ -10,4 +10,17 @@ return {
       },
     },
   },
+
+  {
+    "AstroNvim/astroui",
+    opts = {
+      highlights = {
+        init = {
+          Visual = {
+            bg = "#56568b",
+          },
+        },
+      },
+    },
+  },
 }

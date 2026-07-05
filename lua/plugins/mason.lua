@@ -26,6 +26,7 @@ return {
         "pyright",
         "ruff",
         "clangd",
+        "rnix-lsp",
 
         -- install linter
         "shellcheck",
@@ -36,6 +37,8 @@ return {
         "prettier",
         "clang-format",
         "php-cs-fixer",
+        "nixfmt",
+        "nixpkgs-fmt",
 
         -- install debuggers
         "cpptools",
