@@ -1,18 +1,22 @@
 {
-	"name": "user_snippets",
-	"engines": {
-		"vscode": "^1.11.0"
-	},
-	"contributes": {
-		"snippets": [
-			{
-				"language": "php",
-				"path": "./php.json"
-			},
-			{
-				"language": "css",
-				"path": "./css.json"
-			}
-		]
-	}
+  "name": "user_snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./php.json"
+      },
+      {
+        "language": "css",
+        "path": "./css.json"
+      },
+      {
+        "language": [ "ledger","hledger" ]
+        "path": "./ledger.json"
+      }
+    ]
+  }
 }

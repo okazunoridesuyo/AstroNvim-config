@@ -28,6 +28,7 @@ return {
         "typescript",
         "php",
         "org",
+        "ledger",
       },
     },
   },

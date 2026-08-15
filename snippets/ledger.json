@@ -1,0 +1,7 @@
+{
+  "Food and Daily": {
+    "prefix": ["fad"],
+    "body": ["food and daily"],
+    "description": "勘定項目:食費・日用品代"
+  }
+}
